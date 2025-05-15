@@ -4,69 +4,48 @@ import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `Hey, I’m Ramakanth! I’m a Software Engineer who loves building fast, scalable apps with Python, FastAPI, and React. I’m always curious about new tech and enjoy solving tricky problems.\n\nWhen I’m not coding, I’m probably underwater (swimming) or smashing birdies on the badminton court.\n\nI’m all about learning, growing, and having fun while creating cool stuff.`;
+export const HERO_CONTENT = `Hey, I’m Skanda! I’m a Mechanical Engineer by Degree, Operations Engineer by Industry , NGO Volunteer and A Photographer Enthusiast by Interest. I’m always curious about new tech and enjoy solving tricky problems.\n\nWhen I’m not coding, I’m mostly helping (voulnteering) or smashing birdies on the badminton court.\n\nI’m all about learning, growing, and having fun while creating cool stuff.`;
 
-export const ABOUT_TEXT = `Hey there! I’m Ramakanth, a Software Engineer who thrives on building things that actually work—and work well. I’ve got a soft spot for Python, Web Development, Front-end tech, and I enjoy diving deep into microservices, distributed systems, and exploring the wild world of AI. There’s something satisfying about fine-tuning performance until everything just clicks.\n\nBeyond the tech, I’m a competitive badminton player and a solid underwater swimmer.\n\nIf there’s a new technology or framework out there, I’m probably already messing around with it. I’m the kind of person who gets excited over clean API designs and scalable architecture, but I’m also up for a casual conversation about Anime, movies, or the latest gadgets.\n\nI’m always on the lookout for opportunities to grow, collaborate, and contribute to exciting projects.\n\n`;
+export const ABOUT_TEXT = `Hey , I'm Skanda! A results-oriented AI/ML Engineer with 4+ years of experience in software development and a strong foundation in agile methodologies. Proven ability to apply machine learning, deep learning, and natural language processing techniques to solve real-world problems. Successfully developed and deployed various AI/ML models, including image classification, time series forecasting, and sentiment analysis. Eager to contribute expertise in model building, deployment, and optimization to a challenging AI/ML engineering role.`;
 
 export const EXPERIENCES = [
   {
-    year: "March 2024 - Present",
-    role: "Software Engineer",
-    company: "Capital Vacations, Myrtle Beach, SC",
-    description: `Implemented a scalable Elasticsearch-based search, cutting query times from 3–4s to 200–300ms and boosting user satisfaction from 50% to 80%. Deployed dynamic Next.js pages on Vercel to reduce content creation time by 80%, and integrated GraphQL to slash load times by 40%. Led cross-functional teams in delivering robust microservices with Python, FastAPI, and Redis caching for near O(1) lookups.`,
-    technologies: ["Python", "FastAPI", "Next.js", "TypeScript", "Redis", "Elasticsearch", "AWS", "GraphQL", "PostgreSQL", "Celery", "Vercel"],
-  },
+    year: "Sept 2019 - Jan 2024",
+    role: "Project Engineer",
+    company: "Wipro Technologies , Bangalore",
+    description: `A highly skilled professional with expertise in optimizing business processes and enhancing system reliability. Demonstrated capacity in configuring approval workflows and edit rules, resulting in a 30% reduction in manual intervention for purchase order, invoice, and receipt creation. Successfully managed master data loads, ensuring data integrity for over 500 users with 99.9% accuracy, and improved supplier onboarding time by 15%. Proven ability to configure and maintain Oracle WebLogic servers, ensuring 99.99% uptime across multiple regions. Adept at automating data extraction and transfer processes using SQL queries and ITK, reducing manual effort by 40% and data transfer time by 25%. Competent in implementing version control utilizing SVN and Git, which guarantees code integrity within a team of six developers and facilitates continuous integration. Proficient in employing HTML, PHP, JSON, and XML for developing and maintaining integrations, culminating in a 20% acceleration of the integration deployment cycle. Consistently provided support during production issues and outages, with a 90% resolution rate within established Service Level Agreements, positively impacting over 2000 users. Effectively engaged with customers to gather requirements for tailored solutions, achieving a 95% customer satisfaction rate. Delivered code reviews and guidance to team members, contributing to a 20% reduction in code defects. A collaborative team player, actively participating in daily scrum meetings with onshore and offshore teams, thereby enhancing team communication and project alignment. Actively involved in backlog refinement and sprint planning calls, contributing to accurate sprint estimations and improved sprint velocity.`,
+    technologies: [ "SAP Ariba (P2P)", "JSON", "XML", "SQL", "Shell Scripting", "Windows Server", "WebLogic", "Java", "SVN", "Git", "JIRA"],
+  },  
   {
-    year: "Aug 2023 - Dec 2023",
-    role: "Graduate Teaching Assistant",
-    company: "UNC Charlotte",
-    description: `Mentored over 120 Graduate and PhD students in Software System Design and Implementation. Guided students in developing web applications, enhancing their understanding of modern software development practices.`,
-    technologies: ["Java", "Python", "SQL", "React.js", "JavaScript"],
-  },
-  {
-    year: "Sep 2022 - Dec 2022",
-    role: "Graduate Research Assistant",
-    company: "UNC Charlotte",
-    description: `Built and deployed a policy-based RBAC system for the college portal, enabling section-level access control and custom roles. Reduced role creation time by 70% and improved security without disrupting operations. Developed with FastAPI and PostgreSQL, enhancing scalability for future expansions.`,
-    technologies: ["Python", "FastAPI", "PostgreSQL", "Docker", "Kubernetes", "CI/CD"],
-  },
-  {
-    year: "Jan 2020 - Jul 2022",
-    role: "Software Engineer",
-    company: "Hughes Network Systems, Bangalore, India",
-    description: `Optimized legacy systems by migrating business logic from 1,000+ line stored procedures to Python REST APIs, cutting query times by 70% and improving scalability. Built an in-house compliance reporting service with FastAPI and Playwright, reducing report generation time by 90% and cutting external costs by 70%. Centralized DTOs with a Blueprint Service, slashing build failures by 60% and boosting developer efficiency by 40%.`,
-    technologies: ["Python", "Flask", "FastAPI", "MongoDB", "PostgreSQL", "Docker", "Redis", "CI/CD", "GraphQL", "REST APIs"],
-  },
-  {
-    year: "Jan 2019 - Dec 2019",
-    role: "Software Engineer",
-    company: "Capsley, Bangalore, India",
-    description: `Contributed to a retail-business web application as a Python developer, enhancing functionality and user experience using Django. Optimized MongoDB queries and supported the design of an audit log system for detailed CRUD operations and data traceability. Engaged in API development and applied Agile practices to improve backend infrastructure.`,
-    technologies: ["Python", "Django", "REST APIs", "MongoDB", "Agile SDLC"],
+    year: "Jan 2019 - Mar 2019",
+    role: "Internship Trainee",
+    company: "Gas Turbine Research Establishment (GTRE,DRDO), Bangalore",
+    description: `During my internship at the Gas Turbine Research Establishment (GTRE), DRDO, I focused on understanding gas turbine engine types and their applications, particularly in the context of defense and research, where GTRE plays a crucial role in developing cutting-edge propulsion systems for the Indian military. A key area of study was the impact of ice formation on aircraft safety, a significant concern in diverse operational environments, and the anti-icing methods employed, such as the use of bleed air. I also investigated the efficiency of different strut profiles in anti-icing systems, analyzing how aerodynamic design affects heat transfer and minimizes drag, which is crucial for maintaining optimal performance and fuel efficiency in various operational conditions, including extreme weather scenarios encountered during military operations.`,
+    technologies: [" "],
   },
 ];
 
-export const PROJECTS = [
-  {
-    title: "FastAPI Social Media Platform with CI/CD & Security Enhancements",
-    image: project1,
-    description:
-      "Developed a social media platform using FastAPI, focusing on secure user interactions, JWT authentication, and API testing. Enhanced performance with PostgreSQL and Docker, and ensured seamless deployments with GitHub Actions. Strengthened security with OAuth, SSL, and nginx.",
-    technologies: ["FastAPI", "Python", "PostgreSQL", "Docker", "OAuth", "SSL", "Nginx" ],
-  },
-  {
-    title: "Semantic Search OpenAI",
-    image: project2,
-    description:
-      "Built a semantic search engine using OpenAI embeddings and MongoDB Atlas Search to perform vector-based searches on movie plots. Integrated Python with Hugging Face transformers for accurate natural language query results.",
-    technologies: ["Python", "MongoDB", "OpenAI", "Hugging-Face-Transformers", "Vector-Search" ],
-  },
-  {
-    title: "Traffic Density Management using Movable Divider and RFID",
-    image: project3,
-    description:
-      "Designed a system using RFID and real-time algorithms to optimize traffic flow and emergency response by dynamically adjusting lanes. Co-authored a research paper on the innovation.",
-    technologies: ["RFID", "Algorithms", "Python"],
+//export const PROJECTS = [
+//  {
+//    title: "FastAPI Social Media Platform with CI/CD & Security Enhancements",
+//    image: project1,
+//    description:
+ //     "Developed a social media platform using FastAPI, focusing on secure user interactions, JWT authentication, and API testing. Enhanced performance with PostgreSQL and Docker, and ensured seamless deployments with GitHub Actions. Strengthened security with OAuth, SSL, and nginx.",
+  //  technologies: ["FastAPI", "Python", "PostgreSQL", "Docker", "OAuth", "SSL", "Nginx" ],
+ // },
+ // {
+ //   title: "Semantic Search OpenAI",
+   // image: project2,
+    //description:
+   //   "Built a semantic search engine using OpenAI embeddings and MongoDB Atlas Search to perform vector-based searches on movie plots. Integrated Python with Hugging Face transformers for accurate natural language query results.",
+   // technologies: ["Python", "MongoDB", "OpenAI", "Hugging-Face-Transformers", "Vector-Search" ],
+ // },
+  //{
+    //title: "Traffic Density Management using Movable Divider and RFID",
+   // image: project3,
+//    description:
+ //     "Designed a system using RFID and real-time algorithms to optimize traffic flow and emergency response by dynamically adjusting lanes. Co-authored a research paper on the innovation.",
+ //   technologies: ["RFID", "Algorithms", "Python"],
   },
   // {
   //   title: "Chat App",
@@ -86,6 +65,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   // address: "11018 Graduate Ln, Charlotte, NC",
-  phoneNo: "+1 (980) 944-6262 ",
-  email: "aramakanth1998@gmail.com",
+  phoneNo: "+91 9980964390 ",
+  email: "cfcskanda11@gmail.com",
 };
